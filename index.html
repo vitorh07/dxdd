@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/pokemon-icon.png">
+    <title>Descubra o Pokémon!</title>
+    <script src="main.js"></script>
+</head>
+<body onload="aleatorio()">
+<center>
+    <span id="result" align="center"> </span>  
+<div id="box">
+<div id="divSORTEIO"><img></img></div>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+<br><br><br><br><br>
+
+<div class="angry-grid">
+  <div id="item-0" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="img/pikaxu.png" draggable="true" ondragstart="drag(event)"   id="drag">
+  </div>
+    <div id="item-1" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="img/gengar.png" draggable="true" ondragstart="drag1(event)" id="drag1">
+    </div>
+    <div id="item-2" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="img/vulpix.png" draggable="true" ondragstart="drag2(event)" id="drag2">
+    </div>
+    <div id="item-3" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="img/jigglypuff.png" draggable="true" ondragstart="drag3(event)" id="drag3">
+    </div>
+    <div id="item-4" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="img/geodude.png" draggable="true" ondragstart="drag4(event)" id="drag4">
+    </div>
+    <div id="item-5" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="img/charmeleon.png" draggable="true" ondragstart="drag5(event)" id="drag5">
+    </div>
+    <div id="item-6" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="img/bubassauro.png" draggable="true" ondragstart="drag6(event)" id="drag6">
+    </div>
+    <div id="item-7" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="img/mewtwo.png" draggable="true" ondragstart="drag7(event)" id="drag7">
+    </div>
+  </div>
+  
+  
+</center>
+</body>
+</html>

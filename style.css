@@ -1,0 +1,78 @@
+body{background-image: url(https://cdn.wallpapersafari.com/95/47/nLqXKl.jpg);}
+img{width: 100px; height: 100px;}
+#box{display:flex;justify-content: center;}
+#divSORTEIO , #div1{
+    width: 165px;
+    height: 100px;
+    margin: 50px;
+    padding: 15px;
+    border: 1px solid black;
+    border: rgb(211, 211, 211) solid 5px;
+}
+#divSORTEIO{
+   background-color: #fff;
+}
+.angry-grid {
+    display: grid; 
+    width: 800px;
+    
+ 
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    grid-template-areas: 
+     'label0 label1 label2 label3 label4 label5 label6 label7';
+    
+    gap: 0px;
+    height: 150px;
+ }
+   
+ #item-0 {
+ 
+    background-color: #f5c53f; 
+    grid-area: label0;
+    
+ }
+ #item-1 {
+ 
+    background-color: #4f4c61; 
+    grid-area: label1;
+    
+ }
+ #item-2 {
+ 
+    background-color: #cc7e2a; 
+    grid-area: label2;
+    
+ }
+ #item-3 {
+ 
+    background-color:#ffebf9; 
+    grid-area: label3;
+    
+ }
+ #item-4 {
+ 
+    background-color: #393939; 
+    grid-area: label4;
+    
+ }
+ #item-5 {
+ 
+    background-color: #f24824; 
+    grid-area: label5;
+    
+ }
+ #item-6 {
+ 
+    background-color: #97efcd; 
+    grid-area: label6;
+    
+ }
+ #item-7 {
+ 
+    background-color: #76588e; 
+    grid-area: label7;
+    
+ }
+ 
