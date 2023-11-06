@@ -75,4 +75,10 @@ img{width: 100px; height: 100px;}
     grid-area: label7;
     
  }
+
+p{
+   color: white;
+   position: fixed; bottom: 0;
+   font-family: 'Gill Sans', 'Gill Sans MT';
+}
  
